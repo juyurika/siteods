@@ -1,4 +1,25 @@
 /*Header*/
+.indice {
+    position: absolute;
+}
+
+.indice li {
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 90;
+}
+
+.indice a {
+    text-decoration: none;
+    color: rgb(255, 255, 255, .5);
+}
+
+.indice a:hover {
+    color: #fff;
+    font-size: larger;
+    font-weight: bolder;
+}
+
 .fotoprincipal{
     background-image:url(children-ga17bc7c54_1920.jpg);
     height: 300;
@@ -37,25 +58,21 @@ hr{
 .livro{
     height: 30%;
     position: absolute;
-}
-
-.ODS{
-    position: relative;
-    left: 60%;
+    top: 340;
 }
 
 .Educação{
     font-size: 30;
     color: #ffffff;
-    margin-right: 30
-
+    text-align: right;
+    margin: 30;
 }
 
 .ods4{
-    position: relative;
     color: #ffffff;
-    margin-right: 40;
     font-size: 20;
+    text-align: right;
+    margin: 35;
 }
 
 .linha{
@@ -79,15 +96,12 @@ hr{
     border: 2px solid #fff;
     border-radius: 8px;
     width: fit-content;
-    position: relative;
-    left: 35%;
-    right: 80%;
 }
 
 .menu a, .Quersaber a{
     background-color: rgba(0,0,0, .3);
     padding: 8;
-    display: block;
+    display: inline-block;
     text-decoration: none;
     color: #ffffff;
     border-radius: 8px;
@@ -126,8 +140,7 @@ hr{
     list-style: none;
     font-size: 18;
     margin-right: 60;
-    margin-left: 20;
-    margin-top: 10;
+    margin-top: 20;
 
 }
 
@@ -164,7 +177,8 @@ hr{
     text-align: left;
     margin: 20;
     padding-top: 50;
-    color: #ffffffbe
+    color: #ffffffbe;
+    font-size: 20;
 }
 
 /*Objetivos*/
@@ -173,7 +187,7 @@ hr{
     color: #fff;
     left: 43%;
     width: 50%;
-    top: 80;
+    top: 90;
     font-size: 20;
     min-width: 260;
 }
@@ -182,6 +196,45 @@ hr{
     margin-bottom: 1%;
 }
 
+/* Como faremos */
+
+.como {
+    position: relative;
+    top: 230;
+}
+
+.como header{
+    background-color: #3e5f33;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+    margin-left: 6%;
+    height: fit-content;
+    font-size: 50;
+}
+
+.como p{
+    background-color: #ffffffbe;
+    height: fit-content;
+    padding: 30;
+    font-size: 20;
+}
+
+.esperamos{
+    margin-left: 80;
+    font-size: 30;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.como ul{
+    margin-left: 60;
+    color: #fff;
+}
+
+.como li{
+    padding-top: 8;
+    font-size: 20;
+}
 /*Rodapé*/
 footer{
     background-color: #203819;
@@ -192,6 +245,10 @@ footer{
     top: 380;
     bottom: 0;
     padding-top: 20;
-    padding-right: 20;
     color: #fff;
+}
+
+.creditos{
+    text-align: left;
+    margin-left: 20;
 }
