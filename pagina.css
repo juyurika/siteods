@@ -1,0 +1,197 @@
+/*Header*/
+.fotoprincipal{
+    background-image:url(children-ga17bc7c54_1920.jpg);
+    height: 300;
+    background-size: cover;
+    background-position: center top;
+    color: #ffffff;
+}
+
+.titulo{
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 3%;
+    text-align: left;
+    font-size: 55;
+    text-shadow: 5px 5px 5px #000;
+}
+
+.subtitulo{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 2%;
+    font-size: 25;
+    text-align: left;
+}
+
+body{
+    background-color: #a30c2c;
+    margin: 0;
+}
+
+hr{
+    margin: 25;
+}
+
+/*Seção com a ODS*/
+.livro{
+    height: 30%;
+    position: absolute;
+}
+
+.ODS{
+    position: relative;
+    left: 60%;
+}
+
+.Educação{
+    font-size: 30;
+    color: #ffffff;
+    margin-right: 30
+
+}
+
+.ods4{
+    position: relative;
+    color: #ffffff;
+    margin-right: 40;
+    font-size: 20;
+}
+
+.linha{
+    position: relative;
+    top: 40;
+}
+
+/*Botões*/
+.menu li{
+    display: inline-block;
+    list-style-type: none;
+    font-size: 20;
+    margin-right: 20;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    position: relative;
+    top: 40;
+}
+
+.Quersaber li{
+    border: 2px solid #fff;
+    border-radius: 8px;
+    width: fit-content;
+    position: relative;
+    left: 35%;
+    right: 80%;
+}
+
+.menu a, .Quersaber a{
+    background-color: rgba(0,0,0, .3);
+    padding: 8;
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+.menu a:hover, .Quersaber a:hover{
+    background-color: rgba(0,0,0, .8);
+}
+
+.menu, .Quersaber{
+    text-align: center;
+}
+
+
+/*Metas*/
+.metas{
+    position: relative;
+    top: 50;
+}
+.metas header{
+    background-color: #ffffff;
+    height: 40;
+    margin-right: 60%;
+}
+
+.metas h3{
+    color: #a30c2c;
+    font-size: 25;
+    text-align: right;
+    margin: 20;
+}
+
+.metas li{
+    color: #fff;
+    margin-bottom: 15;
+    list-style: none;
+    font-size: 18;
+    margin-right: 60;
+    margin-left: 20;
+    margin-top: 10;
+
+}
+
+.metas ul{
+    background-color: #3e5f33;
+    margin-left: 20%;
+    border: 5px solid #26421e;
+    border-right: none;
+}
+
+/*O que queremos*/
+.Oquequeremos{
+    position: relative;
+    top: 60;
+}
+.Oquequeremos header{
+    background-color: rgba(0,0,0, .3);
+    margin-right: 68%;
+    margin-left: 6%;
+    height: 500;
+    min-width: 260;
+    position: absolute;
+}
+.Oquequeremos h2{
+    color: #fff;
+    text-align: left;
+    font-size: 50;
+    padding-top: 30;
+    margin: 20;
+}
+
+.Oquequeremos p{
+    font-weight: 700;
+    text-align: left;
+    margin: 20;
+    padding-top: 50;
+    color: #ffffffbe
+}
+
+/*Objetivos*/
+.Objetivos {
+    position: relative;
+    color: #fff;
+    left: 43%;
+    width: 50%;
+    top: 80;
+    font-size: 20;
+    min-width: 260;
+}
+
+.Objetivos li{
+    margin-bottom: 1%;
+}
+
+/*Rodapé*/
+footer{
+    background-color: #203819;
+    height: 150;
+    font-weight: 800;
+    text-align: right;
+    position: relative;
+    top: 380;
+    bottom: 0;
+    padding-top: 20;
+    padding-right: 20;
+    color: #fff;
+}
